@@ -11,17 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="col-md">
     <%= f.label :name %><br>
-    <%= f.text_field :name %>
+    <%= f.text_field :name, size:"100" %>
   </div>
-  <div class="field">
+  <div class="col-md">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_area :description, size:"100" %>
   </div>
-  <div class="field">
+  <div class="col-md">
     <%= f.label :picture %><br>
-    <%= f.file_field :picture %>
+    <%= f.file_field :picture %><br>
   </div>
   <div class="actions">
     <%= f.submit %>
